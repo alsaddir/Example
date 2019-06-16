@@ -6,14 +6,15 @@ import java.util.Scanner;
  */
 public class Student2
 {
-   int id;
-   String name;
+   private int id;
+   private String name;
 
    /**
     * @param args the command line arguments
     */
    public static void main (String[] args)
    {
+
 
 
 
@@ -37,5 +38,25 @@ public class Student2
 
       }
 
+   }
+
+   public void setId (int id)
+   {
+      this.id = id;
+   }
+
+   public void setName (String name)
+   {
+      this.name = name;
+   }
+
+   public int getId ()
+   {
+      return id;
+   }
+
+   public String getName ()
+   {
+      return name;
    }
 }
