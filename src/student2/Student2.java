@@ -8,6 +8,7 @@ public class Student2
 {
    private int id;
    private String name;
+   //LL
 
    /**
     * @param args the command line arguments
