@@ -2,6 +2,7 @@ package student2;
 import java.util.Scanner;
 /**
  *
+ Heloo
  * @author Rich Smith at ZenOfProgramming.com
  */
 public class Student2
